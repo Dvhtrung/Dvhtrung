@@ -1,2 +1,4 @@
 ﻿----New Update----
+-fix filter Artifact
+----Old Update----
 https://raw.githubusercontent.com/Dvhtrung/Dvhtrung/main/Summoner-Install.zip
