@@ -1,4 +1,8 @@
 ﻿----New Update----
+-fix some bug
+-fix 2 Sub Property
+-Add Rta Farm Point
+----Old Update----
 -fix filter Dimensional Hole
 ----Old Update----
 https://raw.githubusercontent.com/Dvhtrung/Dvhtrung/main/Summoner-Install.zip
