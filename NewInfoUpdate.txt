@@ -1,4 +1,7 @@
 ﻿----New Update----
+-add Filter:Stone by name for Rift 3 Team
+-Fix buy Engery
+----Old Update----
 -fix some bug
 -fix 2 Sub Property
 -Add Rta Farm Point
