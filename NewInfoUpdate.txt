@@ -1,5 +1,6 @@
 ﻿----New Update----
 -fix follow game
+-fix link update auto
 ----Old Update----
 -fix đa chiều
 - some Bug
