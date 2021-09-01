@@ -1,4 +1,6 @@
 ﻿----New Update----
+-Add Only Get Hp Flat Hero and Legend in 3 Team
+----Old Update----
 -fix follow game
 -fix link update auto
 ----Old Update----
