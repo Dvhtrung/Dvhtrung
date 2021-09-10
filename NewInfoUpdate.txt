@@ -1,4 +1,7 @@
 ﻿----New Update----
+-fix Farm Exp
+-Fix Beats Raid
+----Old Update----
 -Add Only Get Hp Flat Hero and Legend in 3 Team
 ----Old Update----
 -fix follow game
