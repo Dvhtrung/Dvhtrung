@@ -1,6 +1,7 @@
 ﻿----New Update----
 -fix Farm Exp
 -Support All Blue 5
+-Fix New APK
 ----Old Update----
 -Fix Beats Raid
 ----Old Update----
