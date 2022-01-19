@@ -1,4 +1,6 @@
 ﻿----New Update----
+-fix count in nox
+----Old Update----
 -fix Farm Exp
 -Support All Blue 5
 -Fix New APK
