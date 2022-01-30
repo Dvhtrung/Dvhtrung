@@ -1,4 +1,7 @@
 ﻿----New Update----
+-fix some bug MUMU
+-Rebuild RTA
+----Old Update----
 -fix count in nox
 ----Old Update----
 -fix Farm Exp
