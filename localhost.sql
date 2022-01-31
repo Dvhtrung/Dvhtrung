@@ -1,9 +1,51 @@
+-- phpMyAdmin SQL Dump
+-- version 5.1.1
+-- https://www.phpmyadmin.net/
+--
+-- Host: 127.0.0.1:3306
+-- Generation Time: Jan 31, 2022 at 01:48 AM
+-- Server version: 10.5.12-MariaDB-cll-lve
+-- PHP Version: 7.2.34
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Database: `u732503905_wepe`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `users`
+--
+
+CREATE TABLE `users` (
+  `user` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
+  `password` varchar(100) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `name` text CHARACTER SET utf16 COLLATE utf16_unicode_ci NOT NULL,
+  `email` varchar(100) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `status` int(11) NOT NULL DEFAULT 1,
+  `date_join` timestamp NULL DEFAULT NULL,
+  `times_left` int(11) DEFAULT NULL,
+  `date_left` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Dumping data for table `users`
+--
 
 INSERT INTO `users` (`user`, `password`, `name`, `email`, `status`, `date_join`, `times_left`, `date_left`) VALUES
 ('adminbot', '9f81cb150f4a88c0ac9c4fdd0eecd0f1', 'Vip-Administrator', 'Dvhtrung@gmail.com', 2, '2019-11-11 23:51:39', NULL, NULL),
 ('botadmin', '9f81cb150f4a88c0ac9c4fdd0eecd0f1', 'Vip-Administrators', 'BotForAndroid@gmail.com', 2, '2019-11-12 10:17:11', NULL, NULL),
-('playtogether-FItVGdzl3UOBCbhlmclN0e8JXZi1WdtA1TUt0UFRVRKxkMCJzS0HVPJURIR', '12bab29512035670df442b7032f3fb57', 'Trial-khang', 'hoangkhang18896@gmail.com', 1, '2021-10-15 16:10:07', NULL, '2021-11-13 00:00:00'),
-('playtogether-FItVGdzl3UOBCbhlmclN1e8JXZi1WdCVESURlTJd9R1T', 'a458dfef43729198f1539c9de86adbf6', 'Trial-Wint', 'wintnguyen.reg@gmail.com', 1, '2021-10-21 20:20:18', NULL, '2022-01-06 00:00:00');
+('playtogether-123', '202cb962ac59075b964b07152d234b70', 'Trial-123', '123@g.com', 1, '2021-09-24 06:29:04', NULL, '2021-09-25 06:29:04'),
 ('Summoner(AI)-013FDA80B9546C226CC4FF9488503662430E1DD9D911B00F4A8689D29A907B33', '0973899fba45da77cebca28b7fc49b94', 'Vip-quachphuongduy261988', 'quachphuongduy261988@gmail.com', 0, '2019-10-18 18:21:04', NULL, '2019-11-19 17:00:00'),
 ('Summoner(AI)-03A9B55C1FCCA1C116BC5F9626C7567F207933D7696110383C1B51674909A543', '42d78d52892824e709544eaadc264127', 'Vip-nam2912', 'nam29121995@gmail.com', 0, '2019-11-30 02:39:47', NULL, '2020-01-01 00:00:00'),
 ('Summoner(AI)-04FBF7514820029FBE724C87E1BBB2D8E8A5D2450D730542D69F6DF44BD8A807', 'fbec91c59cc4d921880726c7869a7d89', 'Vip-Nguyen Tung', 'funnyboss36@gmail.com', 1, '2020-07-05 13:22:56', NULL, '2020-08-06 00:00:00'),
@@ -26,7 +68,6 @@ INSERT INTO `users` (`user`, `password`, `name`, `email`, `status`, `date_join`,
 ('Summoner(AI)-1AAEB3D08F6C0450CA3D14384A454BE78675A89522205E4AD60AC9C215963C03', 'dd224e00cbade592bb4d85268cc451d2', 'Vip-LinhLX', 'xuanlinhhud1@gmail.com', 0, '2020-03-17 13:57:29', NULL, '2020-06-18 00:00:00'),
 ('Summoner(AI)-1C10D91EF645D5540A5DC958345E9DCAE955431A956007A20DE59BB0D2E5664A', '49b34b7e791f7beadfb58885532d885a', 'Vip-Nguyen Dai', 'nguyendai211195@gmail.com', 1, '2020-06-29 11:17:06', NULL, '2020-09-03 00:00:00'),
 ('Summoner(AI)-1C8F0692DDC5E9BA61F4C7D9F309B1DAD4FC5641FEF06110C16A7551C8C2C2F9', '1ba001b43727c0baef39114df6c5b8c0', 'Vip-quangthien92', 'quangthien92@gmail.com', 1, '2020-10-27 12:49:14', NULL, '2021-01-28 00:00:00'),
-('Summoner(AI)-1CBBC393E4EC9103B0E9C1AE2F873034B84E4E6630E1C8F4E9F64B94C704BC2B', '95d397da61e30c52ac5fe95cc0224e7c', 'Trial-Do Chung Anh', 'chunganh94@gmail.com', 1, '2021-07-10 13:57:53', NULL, '2021-07-11 13:57:53'),
 ('Summoner(AI)-1CF71FB25318ACB6545CD9B28AB93DA0BED6ED4E03727B034027670CF0DD9051', '13e48025eb1a328763330b32c9a90cbb', 'Vip-Brian Pham', 'duongpham2512@gmail.com', 1, '2020-02-14 04:02:27', NULL, '2022-02-07 00:00:00'),
 ('Summoner(AI)-1D05B0795744FAE5242BE8732EE65D756A0019974CB50DDFE83310B6CFE7D67C', '041bab8fd6083ca3c3dcaca3442c1726', 'Vip-Hai', 'harihaitm@gmail.com', 1, '2021-06-22 08:32:56', NULL, '2021-10-08 00:00:00'),
 ('Summoner(AI)-1D67273235573333C6C2369ED20549C3C0306B329040614344D48DEFE22270BE', '46f38cd6b2ae0f496a8cdfbcc19bb32a', 'Vip-ChuMiNa', 'beoquay9x@gmail.com', 1, '2021-08-23 14:16:07', NULL, '2021-09-30 00:00:00'),
@@ -48,8 +89,6 @@ INSERT INTO `users` (`user`, `password`, `name`, `email`, `status`, `date_join`,
 ('Summoner(AI)-311340868C5C8E66DF07057530F03AD184D35F87A0BEE177B973809534C18E87', 'fa7ef04fb1427cf0b0e0bd3dbbbe4c5f', 'Vip-kiennguyen', 'qctrungkientn89@gmail.com', 1, '2019-09-06 02:04:28', NULL, '2021-01-19 00:00:00'),
 ('Summoner(AI)-32AEEF1526E607E0BAAA9D17416E7F6112F659C19A0A8F27BBFA3197061359D3', 'bb8ade0c27d98d084a8cb25d0a620eeb', 'Vip-minhle', 'minhquangle13101990@gmail.com', 1, '2019-07-04 20:09:42', NULL, '2022-03-05 00:00:00'),
 ('Summoner(AI)-342854E602EF4B53C194AEB281D59F325E1CBE5218C956FE642D99E54B3D165A', 'a73495bcf6e7485e60b66a2882dc2561', 'Vip-Kien', 'kien.vu.bl@gmail.com', 1, '2019-11-05 23:58:23', NULL, '2020-12-19 00:00:00'),
-('Summoner(AI)-361F928E26F929DCA3D98988068D1D483F4084D5B6211F03FC8B9AEC54357382', '5aa146db01f10e8d8bfff1cb5f58e0b9', 'Trial-sakura1052', 'dinhtrung2889@gmail.com', 1, '2021-01-19 03:27:14', NULL, '2021-01-20 03:27:14'),
-('Summoner(AI)-3725CCA6D14577835F612FB1AA631C57419D03A5E8B51A7844FC7161B40C43FB', '3e918e63e516abc4bf39efc3daeee1ff', 'Trial-divella', 'yivn99@gmail.com', 1, '2021-09-13 09:30:06', NULL, '2021-09-14 09:30:06'),
 ('Summoner(AI)-378155F2DB4FDD2F6BCF59444E917DA50860FAA23FD677BF0E438620E5137789', '83b9c3f1b5132532b8ef7b1d04b86110', 'Vip-nghoanglonganh90', 'nghoanglonganh90@gmail.com', 1, '2020-04-08 14:00:31', NULL, '2020-05-09 00:00:00'),
 ('Summoner(AI)-378155F2DB4FDD2F6BCF59444E917DA50CEBFECB1AEF267FF33B56782A4D8097', '83b9c3f1b5132532b8ef7b1d04b86110', 'Vip-Do Toan Thang', 'mr.map1102@gmail.com', 1, '2021-04-18 10:36:01', NULL, '2021-09-19 00:00:00'),
 ('Summoner(AI)-378155F2DB4FDD2F6BCF59444E917DA50D45A348B337733D3E1FCDA5E4544D6E', '83b9c3f1b5132532b8ef7b1d04b86110', 'Vip-Truong Trung Dung', 'chantinhlc@gmail.com', 1, '2021-04-21 10:53:55', NULL, '2021-08-20 00:00:00'),
@@ -204,15 +243,14 @@ INSERT INTO `users` (`user`, `password`, `name`, `email`, `status`, `date_join`,
 ('Summoner(AI)-D0FAD1E0F2794AE8FF4A818DF3D38E634B1B804EC60031C337B7C4CA0B2BFDED', '49d3e771edfec382fd21c7022c2291f8', 'Vip-Hoang Tu', 'minhtuhoang91@gmail.com', 1, '2020-09-04 12:03:41', NULL, '2020-10-05 00:00:00'),
 ('Summoner(AI)-D1A16CE04B7D637AED91E266E3A79AA18FEF1EA6F77FAB0AB3B4686E4FE0D134', 'def4ebcdeb39c20c36c8ef4165befa09', 'Vip-Huy Tuan', 'g3lelerta@gmail.com', 1, '2020-09-26 12:59:10', NULL, '2020-10-27 00:00:00'),
 ('Summoner(AI)-D4491241442F7A62400CCD966201BE67108CCC54EA062AD3B3FD2006AD553193', 'a50acd7ed064e85df7f4b2f2b0ae4564', 'Vip-Lộc Hoàng', 'lochoang2011@gmail.com', 1, '2019-05-10 09:34:37', NULL, '2021-02-20 00:00:00'),
-('Summoner(AI)-D4491241442F7A62400CCD966201BE67A26120FA7142BD358C34BE89ABCF421F', 'a50acd7ed064e85df7f4b2f2b0ae4564', 'Vip-Hoang Sang', 'sangspack@gmail.com', 1, '2021-05-09 11:32:19', NULL, '2021-06-07 00:00:00');
-INSERT INTO `users` (`user`, `password`, `name`, `email`, `status`, `date_join`, `times_left`, `date_left`) VALUES
+('Summoner(AI)-D4491241442F7A62400CCD966201BE67A26120FA7142BD358C34BE89ABCF421F', 'a50acd7ed064e85df7f4b2f2b0ae4564', 'Vip-Hoang Sang', 'sangspack@gmail.com', 1, '2021-05-09 11:32:19', NULL, '2021-06-07 00:00:00'),
 ('Summoner(AI)-D4491241442F7A62400CCD966201BE67A4D5CE1809BD96DC9AB73A322DB80438', 'a50acd7ed064e85df7f4b2f2b0ae4564', 'Vip-namson window', 'namsonwindow@gmail.com', 1, '2020-05-01 09:32:18', NULL, '2020-11-15 00:00:00'),
 ('Summoner(AI)-D4491241442F7A62400CCD966201BE67C02B0EB9DB353EBAFBB7C37B5DB1085E', 'a50acd7ed064e85df7f4b2f2b0ae4564', 'Vip-Pham Cuong', 'giana2810@gmail.com', 1, '2020-02-19 02:49:50', NULL, '2020-05-17 00:00:00'),
 ('Summoner(AI)-D55B43061A2C31F457F66E64FF34EC0CB9FB495502BA775F28557FEC152C82AA', 'b1be04ac92af10708a60d01085cd2392', 'Trial-duoghy', 'phatcm666@gmail.com', 1, '2021-08-27 03:34:04', NULL, '2021-08-28 03:34:04'),
 ('Summoner(AI)-D73DAAD426CA6123B3A36E683AAD2BB39795FD35E4DAAC84907E890782D0815D', '51964a0f252130f813a8c93e77264cba', 'Vip-hoang ngo', 'hoangngo1510@gmail.com', 1, '2020-06-08 13:56:22', NULL, '2020-08-08 00:00:00'),
 ('Summoner(AI)-D8B078DF055D33AE23CDE054C10CB7D6DC79033484E42CF2422F7ED9991122C0', '4f088e102c581ba008aa0a1bf5bebf7a', 'Vip-killerbee1910', 'nguyen.t.hoaigtvt@gmail.com', 1, '2019-08-07 00:25:40', NULL, '2021-07-20 00:00:00'),
 ('Summoner(AI)-D90C160E94F00D12D2B1D9ACFB9D9AAF10600FEB056F436FFBA5869BF5FF40A1', '65ad97b21be91188a7bb2ac95f46d37f', 'Trial-Phat', 'nguthuongphat97@gmail.com', 1, '2020-12-18 07:50:21', NULL, '2020-12-19 07:50:21'),
-('Summoner(AI)-DB6249D764561632381B24FE73D917BE9154CE2BE190A9E1A5AEA2EFDA016407', '47435d74096f14268e1520ef2332e3d2', 'Vip-Nguyen hoang', 'nguyenhoang888777@gmail.com', 0, '2021-10-11 00:05:27', NULL, '2022-01-28 00:00:00'),
+('Summoner(AI)-DB6249D764561632381B24FE73D917BE9154CE2BE190A9E1A5AEA2EFDA016407', '47435d74096f14268e1520ef2332e3d2', 'Vip-Nguyen hoang', 'nguyenhoang888777@gmail.com', 1, '2021-10-11 00:05:27', NULL, '2022-02-28 00:00:00'),
 ('Summoner(AI)-DDEFF17C96F8D9C5EFFA4E572F8685342A86C216BAE0A3E54E607687C3C02C54', '0e90cc77a13e818796908f0ea8e46a5f', 'Vip-NguyenMinh', 'mailforgameacc001@gmail.com', 1, '2020-04-18 15:24:07', NULL, '2020-05-19 00:00:00'),
 ('Summoner(AI)-E220353CF1BC2B6F2DB402D11C5DE3F20E6036C985EF50313184F5D55FCB068E', 'bec1d09c0d7a1036bc89763e6a5e3f5e', 'Vip-Hoan Thien', 'bumchem18@gmail.com', 1, '2020-09-07 05:13:06', NULL, '2020-12-19 00:00:00'),
 ('Summoner(AI)-E5B4092DE97E0DF5B1A3F751424187B85655B2C82F5F88261232E291798FD701', '459560a0ff231b77718ece85afd2c48f', 'Vip-Phi Long', 'longrong9989@gmail.com', 1, '2021-12-31 13:09:07', NULL, '2022-02-01 00:00:00'),
@@ -236,8 +274,8 @@ INSERT INTO `users` (`user`, `password`, `name`, `email`, `status`, `date_join`,
 ('Summoner(AI)-FDE9500F4654CC8074DF66017F6754B027E3A3B20D2ED3F565C4B9E81FEBD573', '8621934b42952c843918ff4a2e9b42d2', 'Vip-baonguyengja', 'gjabaohmu99@gmail.com', 1, '2021-02-01 11:21:24', NULL, '2021-02-27 00:00:00'),
 ('Summoner(AI)-FE43817C096DA050D41A89B9EFC035E02B39836CE26B6DEB98C749BD383806B5', '320af017b39659105ef739152fe40ac1', 'Vip-Do Toan Thang 2', 'mr.map102@gmail.com', 1, '2020-06-30 14:13:36', NULL, '2021-04-22 00:00:00'),
 ('Summoner(AI)-FEC4CA32C23FA2A1DF4A28B2BCD870854DB170C78A1E97AB74912DAFFF300190', 'e3183fc994cda711098c24f636873363', 'Vip-hungguitar', 'igoguitarhn2@gmail.com', 1, '2020-05-03 13:27:27', NULL, '2020-05-04 00:00:00'),
-('Summoner(AI)-FF4327A3CDFCD0BB6F561DF2CCC403A20F886577FA100C5AF1CF2158948FF094', '426aff95085ed565bd7dd5fe38184191', 'Vip-Nguyen Du', 'nguyendu120884@gmail.com', 1, '2020-08-18 15:44:01', NULL, '2022-02-15 00:00:00'),
-('Summoner(AI)-FFC6A75907DE33202D725A09391F0B3822F217B8DD0D89B4AE4BD04334DF7818', 'aa48440afa543e3fa587534b4b748beb', 'Trial-doncry', 'hungnlcs@gmail.com', 1, '2021-05-03 19:59:39', NULL, '2021-05-05 00:00:00'),
+('Summoner(AI)-FF4327A3CDFCD0BB6F561DF2CCC403A20F886577FA100C5AF1CF2158948FF094', '426aff95085ed565bd7dd5fe38184191', 'Vip-Nguyen Du', 'nguyendu120884@gmail.com', 1, '2020-08-18 15:44:01', NULL, '2022-02-15 00:00:00');
+INSERT INTO `users` (`user`, `password`, `name`, `email`, `status`, `date_join`, `times_left`, `date_left`) VALUES
 ('SummonerS-AdminBot', '9f81cb150f4a88c0ac9c4fdd0eecd0f1', 'Vip-AdministratorS', 'vip@gmail.com', 1, '2019-11-16 06:30:52', NULL, NULL),
 ('SummonerS-animaifrit', '34c57287309b9af473a30c148840a9b7', 'Vip-animaifrit', 'thethong472@gmail.com', 1, '2020-08-14 14:13:48', NULL, '2020-09-12 00:00:00'),
 ('SummonerS-artifexnhuan', 'e19d5cd5af0378da05f63f891c7467af', 'Vip-Ngo Duc Nhuan', 'artifexnhuan@gmail.com', 0, '2019-12-07 13:15:06', NULL, '2020-11-24 00:00:00'),
@@ -262,3 +300,18 @@ INSERT INTO `users` (`user`, `password`, `name`, `email`, `status`, `date_join`,
 ('SummonerS-tuandaqd', '2000d7ffd020b51d57e58083fcb143aa', 'Vip-tuan', 'tuandaqd1@gmail.com', 0, '2020-01-31 13:05:09', NULL, '2020-02-29 00:00:00'),
 ('SummonerS-tuencns', '871dff89e7a31723e654e0ee630b6742', 'Vip-Nguyen Chi Tue', 'tuencns@gmail.com', 0, '2020-01-22 04:52:04', NULL, '2020-02-23 00:00:00'),
 ('SummonerS-zjiang0706', 'ea29017afb0708c7b9294d0c5ba43350', 'Vip-zjiang0706', 'zjiang0706@gmail.com', 1, '2020-05-01 02:14:46', NULL, '2021-08-14 00:00:00');
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `users`
+--
+ALTER TABLE `users`
+  ADD PRIMARY KEY (`user`);
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
