@@ -1,4 +1,7 @@
 ﻿----New Update----
+-fix not sell Rare artifact
+-fix drag in Up Rune + Artifact
+---Old Update----
 -fix some bug MUMU
 -Rebuild RTA
 ----Old Update----
