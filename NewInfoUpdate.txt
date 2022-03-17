@@ -1,4 +1,7 @@
 ﻿----New Update----
+-add new dungeons Secreon
+-fix Number 2 Only Get Rune SPD
+---Old Update----
 -fix not sell Rare artifact
 -fix drag in Up Rune + Artifact
 ---Old Update----
