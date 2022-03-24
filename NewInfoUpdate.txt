@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿----New Update----
 -fix fill by name rune
 -fix open MUMU
@@ -38,3 +39,45 @@
 -fix filter Dimensional Hole
 ----Old Update----
 https://raw.githubusercontent.com/Dvhtrung/Dvhtrung/main/Summoner-Install.zip
+=======
+﻿----New Update----
+-fix fill by name rune
+-fix open MUMU
+-fix Not sell rune in MUMU
+---Old Update----
+-add new dungeons Secreon
+-fix Number 2 Only Get Rune SPD
+---Old Update----
+-fix not sell Rare artifact
+-fix drag in Up Rune + Artifact
+---Old Update----
+-fix some bug MUMU
+-Rebuild RTA
+----Old Update----
+-fix count in nox
+----Old Update----
+-fix Farm Exp
+-Support All Blue 5
+-Fix New APK
+----Old Update----
+-Fix Beats Raid
+----Old Update----
+-Add Only Get Hp Flat Hero and Legend in 3 Team
+----Old Update----
+-fix follow game
+-fix link update auto
+----Old Update----
+-fix đa chiều
+- some Bug
+----Old Update----
+-add Filter:Stone by name for Rift 3 Team
+-Fix buy Engery
+----Old Update----
+-fix some bug
+-fix 2 Sub Property
+-Add Rta Farm Point
+----Old Update----
+-fix filter Dimensional Hole
+----Old Update----
+https://raw.githubusercontent.com/Dvhtrung/Dvhtrung/main/Summoner-Install.zip
+>>>>>>> b3ee2ab3e3766bb2a5a154ff18865d9095105a53
