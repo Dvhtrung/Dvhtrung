@@ -1,5 +1,8 @@
-<<<<<<< HEAD
 ﻿----New Update----
+-fix Rift Raid  3 Team can fill by name
+-add New skin Ellia for quiz
+-Rebuild Combo Auto( Only run with Auto in Game)
+---Old Update----
 -fix fill by name rune
 -fix open MUMU
 -fix Not sell rune in MUMU
