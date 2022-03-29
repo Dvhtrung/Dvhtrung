@@ -1,4 +1,5 @@
 ﻿----New Update----
+-fix auto in cairos
 -fix Rift Raid  3 Team can fill by name
 -add New skin Ellia for quiz
 -Rebuild Combo Auto( Only run with Auto in Game)
