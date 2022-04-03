@@ -1,4 +1,7 @@
 ﻿----New Update----
+-Support LDPlayer
+-fix PlayAgain in Auto in Game
+---Old Update----
 -fix Up Artifact
 ---Old Update----
 -fix auto in cairos
