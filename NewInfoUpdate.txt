@@ -1,4 +1,7 @@
 ﻿----New Update----
+-Support LDPlayer 100%
+-Add new Fill Engery
+---Old Update----
 -Support LDPlayer
 -fix PlayAgain in Auto in Game
 ---Old Update----
