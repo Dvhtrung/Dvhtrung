@@ -1,4 +1,6 @@
 ﻿----New Update----
+-Fix Combo Auto
+---Old Update----
 -Support LDPlayer 100%
 -Add new Fill Engery
 ---Old Update----
