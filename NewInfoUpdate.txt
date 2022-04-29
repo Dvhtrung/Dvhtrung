@@ -1,4 +1,8 @@
 ﻿----New Update----
+-Fix Manager Rune
+-New Auto Up Rune and Artifact for Auto in Game
+-New Auto RTA Farm Point
+---Old Update----
 -Fix Combo Auto
 ---Old Update----
 -Support LDPlayer 100%
