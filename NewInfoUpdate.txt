@@ -1,7 +1,10 @@
 ﻿----New Update----
+-Fix Up rune in Auto in Game
+---Old Update----
 -Add Farm Arena with Amir
 -Add TOA run with x10
 -Fix fill in Arena
+
 ---Old Update----
 -Fix Multi Dimensional Hole
 -Fix Manager Rune
