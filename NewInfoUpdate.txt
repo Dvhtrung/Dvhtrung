@@ -1,4 +1,6 @@
 ﻿----New Update----
+-Add Up Artifact in Auto in Game
+---Old Update----
 -Fix Up rune in Auto in Game
 ---Old Update----
 -Add Farm Arena with Amir
