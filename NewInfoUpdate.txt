@@ -1,4 +1,6 @@
 ﻿----New Update----
+-Fix Up Artifact and Up Rune
+---Old Update----
 -Add Up Artifact in Auto in Game
 ---Old Update----
 -Fix Up rune in Auto in Game
