@@ -1,4 +1,6 @@
 ﻿----New Update----
+-Fix Beat Raid
+---Old Update----
 -Fix New UI Update Game
 ---Old Update----
 -Add New Quiz
