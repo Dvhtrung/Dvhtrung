@@ -1,5 +1,6 @@
 ﻿----New Update----
--Add new quiz 85 %
+-Add new quiz 90 %
+-Only Suppor Vietnamese in game
 ---Old Update----
 -Fix Artifact for event
 ---Old Update----
