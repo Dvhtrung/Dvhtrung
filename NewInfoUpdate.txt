@@ -1,6 +1,8 @@
 ﻿----New Update----
+-Add fill rune-artifact follow auto game
+---Old Update----
 -Add new quiz 90 %
 -Only Suppor Vietnamese in game
----Old Update----
+
 -Fix Artifact for event
 ---Old Update----
