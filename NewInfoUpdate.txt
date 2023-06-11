@@ -2,6 +2,7 @@
 -Add fill rune-artifact follow auto game
 -Fix Arena
 -Add RTA Farm Point
+-Fix Combo Auto
 ---Old Update----
 -Add new quiz 90 %
 -Only Suppor Vietnamese in game
