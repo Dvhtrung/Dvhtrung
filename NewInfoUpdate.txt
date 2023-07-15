@@ -1,4 +1,6 @@
 ﻿----New Update----
+-Rebuild Quiz
+----Old Update----
 -Add New Dungeons
 -Add fill rune-artifact follow auto game
 -Fix Arena
