@@ -1,5 +1,5 @@
 ﻿----New Update----
--Rebuild Quiz
+-Add Quiz Ellia
 ----Old Update----
 -Add New Dungeons
 -Add fill rune-artifact follow auto game
