@@ -1,8 +1,3 @@
 ﻿----New Update----
--Add Quiz Ellia
-----Old Update----
--Add New Dungeons
--Add fill rune-artifact follow auto game
--Fix Arena
--Add RTA Farm Point
--Fix Combo Auto
+-Up 30 Battle
+-Pls Run Auto With 'Auto Fill By Game'
